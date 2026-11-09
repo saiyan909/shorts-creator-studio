@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhi Studio - AI Shorts & Reels Content Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow -->
+  <div class="glow-bg top-glow"></div>
+  <div class="glow-bg bottom-glow"></div>
+
+  <div class="app-layout">
+    <!-- Top Navigation Bar -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo-mark">⚡</div>
+        <div class="brand-text">
+          <h1>Adhi<span>Studio</span></h1>
+          <p>Shorts & Reels Manager Engine</p>
+        </div>
+      </div>
+      
+      <!-- Tab Navigation -->
+      <nav class="nav-tabs">
+        <button id="tab-btn-generator" class="tab-link active">✨ Studio Generator</button>
+        <button id="tab-btn-history" class="tab-link">📁 Riwayat Project <span id="history-badge" class="badge">1</span></button>
+        <button id="tab-btn-schedule" class="tab-link">📅 Jadwal & Manager</button>
+        <button id="tab-btn-export" class="tab-link">📱 Export ke HP <span id="export-badge" class="badge">41</span></button>
+      </nav>
+
+      <div class="header-actions">
+        <span class="status-pill ready"><span class="dot"></span> Manager Ready</span>
+        <button id="btn-refresh" class="btn-ghost" title="Refresh">🔄 Refresh</button>
+      </div>
+    </header>
+
+    <!-- ==================== TAB 1: STUDIO GENERATOR (GUIDED 4-STEP) ==================== -->
+    <section id="view-generator" class="view-panel active">
+      <div class="generator-container">
+        <!-- Step Indicator Bar -->
+        <div class="stepper-bar">
+          <div class="step-node active" id="node-1">
+            <span class="node-num">1</span>
+            <span class="node-label">Topik & Format</span>
+          </div>
+          <div class="step-line" id="line-1"></div>
+          <div class="step-node" id="node-2">
+            <span class="node-num">2</span>
+            <span class="node-label">Naskah Teleprompter</span>
+          </div>
+          <div class="step-line" id="line-2"></div>
+          <div class="step-node" id="node-3">
+            <span class="node-num">3</span>
+            <span class="node-label">Rekaman Suara</span>
+          </div>
+          <div class="step-line" id="line-3"></div>
+          <div class="step-node" id="node-4">
+            <span class="node-num">4</span>
+            <span class="node-label">Render & Social Kit</span>
+          </div>
+        </div>
+
+        <!-- STEP 1: TOPIK & FORMAT -->
+        <div class="wizard-step active" id="wizard-step-1">
+          <div class="card-glass">
+            <div class="card-header">
+              <span class="tag-badge">Langkah 1 dari 4</span>
+              <h2>Tentukan Topik atau Pertanyaan Overthinking</h2>
+              <p>Masukkan ide pertanyaan random atau rasa penasaranmu. Manager akan menganalisis apakah topik ini cukup 1 menit atau butuh multi-part.</p>
+            </div>
+
+            <div class="input-block">
+              <label for="input-topic">Topik / Pertanyaan:</label>
+              <textarea id="input-topic" rows="3" placeholder="Contoh: Kenapa es di tumbler nggak mencair seharian?" required></textarea>
+            </div>
+
+            <div class="preset-chips">
+              <span class="preset-label">Ide cepat:</span>
+              <button type="button" class="chip-btn" data-topic="Kenapa ide brilian selalu muncul pas kita lagi mandi?">🚿 Ide Pas Mandi</button>
+              <button type="button" class="chip-btn" data-topic="Kenapa suara rekaman sendiri kedengeran cempreng dan aneh?">🎙️ Suara Rekaman</button>
+              <button type="button" class="chip-btn" data-topic="Kenapa waktu berasa cepet banget kalau lagi seneng?">⏳ Waktu Cepat</button>
+              <button type="button" class="chip-btn" data-topic="Sejarah asal mula terciptanya kopi luwak pertama kali di dunia">☕ Sejarah Kopi Luwak (Multi-Part)</button>
+            </div>
+
+            <!-- Complexity / Part Warning Badge -->
+            <div id="complexity-alert" class="alert-box hidden">
+              <div class="alert-icon">⚠️</div>
+              <div class="alert-text">
+                <h4 id="alert-title">Topik Membutuhkan Multi-Part</h4>
+                <p id="alert-desc">Topik sejarah atau penjelasan mendalam disarankan dipecah menjadi Part 1 & Part 2 agar tetap padat di bawah 1 menit.</p>
+              </div>
+            </div>
+
+            <div class="options-row">
+              <div class="opt-col">
+                <label>Format Seri:</label>
+                <select id="select-part-mode">
+                  <option value="single">Single Video (1 Menit Padat)</option>
+                  <option value="multi">Multi-Part Series (Part 1 dari 2)</option>
+                </select>
+              </div>
+              <div class="opt-col">
+                <label>Gaya Penyampaian:</label>
+                <select id="select-tone">
+                  <option value="santai" selected>Santai & Penasaran (Rekomendasi)</option>
+                  <option value="sains">Fakta Sains & Edukasi</option>
+                  <option value="komedi">Humor & Lucu</option>
+                  <option value="misteri">Misterius & Teori Menarik</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div></div>
+              <button type="button" id="btn-goto-step-2" class="btn-primary">
+                Lanjut ke Step 2: Buat Naskah ➔
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 2: REVIEW & EDIT NASKAH -->
+        <div class="wizard-step" id="wizard-step-2">
+          <div class="card-glass">
+            <div class="card-header">
+              <span class="tag-badge">Langkah 2 dari 4</span>
+              <h2>Tinjau & Edit Naskah (Teleprompter)</h2>
+              <p>Periksa naskah 5 adegan di bawah. Kamu bisa mengedit kalimatnya agar pas dengan gaya bicaramu sendiri.</p>
+            </div>
+
+            <!-- Script Stats -->
+            <div class="stats-row">
+              <div class="stat-pill">
+                <span class="stat-label">Jumlah Kata:</span>
+                <span class="stat-val" id="stat-word-count">125 Kata</span>
+              </div>
+              <div class="stat-pill">
+                <span class="stat-label">Estimasi Baca:</span>
+                <span class="stat-val" id="stat-est-duration">~48 Detik (Ideal)</span>
+              </div>
+              <div class="stat-pill" id="stat-part-badge">
+                <span class="stat-label">Format:</span>
+                <span class="stat-val text-cyan">Single Shorts</span>
+              </div>
+            </div>
+
+            <!-- Quick Import Box from Antigravity -->
+            <div class="quick-import-box" style="margin-bottom: 20px; background: rgba(0, 240, 255, 0.05); border: 1px dashed rgba(0, 240, 255, 0.35); border-radius: 12px; padding: 14px 18px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+                <span style="font-size:13px; font-weight:600; color:var(--cyan-glow);">✨ Tempel Naskah dari Chat Antigravity:</span>
+                <button type="button" id="btn-apply-antigravity-script" class="btn-primary" style="padding: 6px 14px; font-size: 12px;">Terapkan ke 5 Adegan ⚡</button>
+              </div>
+              <textarea id="input-antigravity-raw" rows="3" placeholder="Tempel naskah lengkap dari chat di sini (yang ada label [Adegan 1] s/d [Adegan 5]), lalu klik 'Terapkan ke 5 Adegan'..." style="width:100%; font-size:13px; background:var(--bg-surface); border:1px solid var(--border-color); color:var(--text-main); border-radius:8px; padding:10px; font-family:inherit; resize:vertical;"></textarea>
+            </div>
+
+            <!-- Scene Script Cards (Editable) -->
+            <div id="script-scene-list" class="script-scene-list">
+              <!-- Dynamically populated scene text inputs -->
+            </div>
+
+            <div class="card-footer">
+              <button type="button" id="btn-backto-step-1" class="btn-ghost">
+                ⬅️ Kembali ke Topik
+              </button>
+              <button type="button" id="btn-goto-step-3" class="btn-primary">
+                Lanjut ke Step 3: Siapkan Suara ➔
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 3: REKAM / UPLOAD SUARA -->
+        <div class="wizard-step" id="wizard-step-3">
+          <div class="card-glass">
+            <div class="card-header">
+              <span class="tag-badge">Langkah 3 dari 4</span>
+              <h2>Rekam Suaramu Sendiri atau Gunakan AI Preview</h2>
+              <p>Baca naskah di teleprompter di bawah menggunakan HP. Jangan lupa beri jeda napas 0.8 detik di setiap jeda adegan untuk auto-sync otomatis.</p>
+            </div>
+
+            <!-- Teleprompter Reading Box -->
+            <div class="teleprompter-box">
+              <div class="teleprompter-header">
+                <span>📖 Teks Lengkap untuk Dibaca:</span>
+                <button type="button" id="btn-copy-prompter" class="btn-copy-small">📋 Salin Teks</button>
+              </div>
+              <div id="teleprompter-content" class="teleprompter-content">
+                <!-- Combined script text for reading -->
+              </div>
+            </div>
+
+            <!-- Audio Input Mode -->
+            <div class="audio-selection-box">
+              <h3>Pilih Sumber Suara:</h3>
+              <div class="radio-options">
+                <label class="radio-card active">
+                  <input type="radio" name="audio-mode" value="custom" checked>
+                  <div class="radio-body">
+                    <strong>🎙️ Upload Rekaman Suara Sendiri (Direkomendasikan)</strong>
+                    <p>Format .mp3, .wav, .m4a. Sistem otomatis memotong dan menyesuaikan durasi gambar.</p>
+                  </div>
+                </label>
+                <label class="radio-card">
+                  <input type="radio" name="audio-mode" value="ai">
+                  <div class="radio-body">
+                    <strong>🤖 Gunakan Voiceover AI Sementara (Preview)</strong>
+                    <p>Pilih suara AI Ardi / Gadis jika belum sempat merekam suara sendiri.</p>
+                  </div>
+                </label>
+              </div>
+
+              <!-- Upload File Form -->
+              <div id="box-upload-file" class="file-drop-area">
+                <input type="file" id="step3-voice-file" accept="audio/*">
+                <p id="file-chosen-label">🎙️ Pilih atau Drop file rekaman suara Mas Adhi (.mp3 / .wav / .m4a)</p>
+                <small>✨ <strong>Auto-Studio Mode:</strong> Hening 2 detik di awal & akhir otomatis dibersihkan dari noise, di-EQ vokal jernih, dinormalisasi ke standar Shorts (-14 LUFS), dan disinkronkan ke 5 adegan.</small>
+              </div>
+
+              <!-- AI Voice Picker (Hidden by default) -->
+              <div id="box-ai-picker" class="ai-voice-picker hidden">
+                <label>Pilih Model Suara AI:</label>
+                <select id="step3-select-ai-voice">
+                  <option value="id-ID-ArdiNeural">AI Ardi (Laki-laki, Ramah & Energik)</option>
+                  <option value="id-ID-GadisNeural">AI Gadis (Perempuan, Hangat & Alami)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <button type="button" id="btn-backto-step-2" class="btn-ghost">
+                ⬅️ Ubah Naskah
+              </button>
+              <button type="button" id="btn-start-render" class="btn-primary">
+                🚀 Render Video & Social Kit ➔
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 4: PROGRESS & HASIL RENDERING -->
+        <div class="wizard-step" id="wizard-step-4">
+          <!-- Render Progress Overlay -->
+          <div id="wizard-render-progress" class="render-progress-card">
+            <div class="tracker-spinner"></div>
+            <h3 id="wizard-progress-title">Sedang Merender Video Shorts...</h3>
+            <p id="wizard-progress-sub">Membuat visual 9:16, thumbnail "KENAPA", dan menyusun caption lengkap.</p>
+            <div class="progress-bar-track" style="max-width: 460px; width: 100%; margin: 18px auto 8px;">
+              <div id="wizard-progress-fill" class="progress-bar-fill" style="width: 5%;"></div>
+            </div>
+            <div style="display:flex; justify-content:space-between; max-width:460px; width:100%; margin:0 auto; font-size:13px; color:var(--text-muted);">
+              <span id="wizard-progress-status-text">Memulai proses...</span>
+              <span id="wizard-progress-percent" style="font-weight:800; font-family:var(--font-mono); color:var(--primary);">5%</span>
+            </div>
+          </div>
+
+          <!-- Result View -->
+          <div id="wizard-render-result" class="card-glass hidden">
+            <div class="result-header">
+              <span class="tag-success">✅ Selesai Diproduksi!</span>
+              <h2 id="result-title">Judul Video</h2>
+            </div>
+
+            <div class="result-grid">
+              <!-- Left: Video & Thumbnail -->
+              <div class="result-media-col">
+                <div class="video-frame">
+                  <video id="wizard-result-video" playsinline controls loop></video>
+                </div>
+
+                <!-- Minimalist Thumbnail Box -->
+                <div class="thumb-preview-card">
+                  <h4>🖼️ Thumbnail Profil "KENAPA" (1080x1920 / 1:1 Grid)</h4>
+                  <div class="thumb-wrapper">
+                    <img id="wizard-result-thumb" src="" alt="Thumbnail Minimalis">
+                  </div>
+                  <a id="btn-download-thumb" href="#" download="thumbnail.jpg" class="btn-ghost-small">⬇️ Download Thumbnail</a>
+                </div>
+              </div>
+
+              <!-- Right: Multiplatform Social Kit -->
+              <div class="result-caption-col">
+                <div class="kit-header">
+                  <h3>📝 Social Media Kit (Caption Tambahan per Platform)</h3>
+                  <p>Caption dirancang memberikan wawasan ekstra, tidak hanya mengulang apa yang diucapkan di video!</p>
+                </div>
+
+                <div class="social-tabs">
+                  <button type="button" class="soc-tab-btn active" data-platform="youtube">🔴 YouTube Shorts</button>
+                  <button type="button" class="soc-tab-btn" data-platform="tiktok">🎵 TikTok</button>
+                  <button type="button" class="soc-tab-btn" data-platform="instagram">📸 Instagram Reels</button>
+                  <button type="button" class="soc-tab-btn" data-platform="facebook">🔵 Facebook Reels</button>
+                </div>
+
+                <div class="caption-display-box">
+                  <div class="caption-action-bar">
+                    <span id="caption-platform-label" class="platform-indicator">🔴 YouTube Shorts</span>
+                    <button type="button" id="btn-copy-platform-caption" class="btn-copy-small">📋 Salin Caption Ini</button>
+                  </div>
+                  <textarea id="platform-caption-text" rows="12" readonly></textarea>
+                </div>
+
+                <div class="action-buttons-final">
+                  <button type="button" id="btn-create-another" class="btn-secondary">
+                    ➕ Buat Topik Lain
+                  </button>
+                  <button type="button" id="btn-add-to-schedule" class="btn-primary">
+                    📅 Masukkan ke Jadwal Posting
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 2: RIWAYAT PROJECT (HISTORY) ==================== -->
+    <section id="view-history" class="view-panel">
+      <main class="studio-main">
+        <aside class="sidebar-projects">
+          <div class="sidebar-header">
+            <h2>Daftar Video</h2>
+            <span id="project-count" class="badge">0</span>
+          </div>
+          <div id="project-list" class="project-list"></div>
+        </aside>
+
+        <section class="studio-content">
+          <div class="project-hero">
+            <div class="hero-info">
+              <span id="hero-topic" class="topic-tag">Topik</span>
+              <h2 id="hero-title">Pilih Project di Sisi Kiri</h2>
+              <p id="hero-desc">Buka project untuk meninjau adegan, mendengarkan audio, atau ganti dengan suara sendiri.</p>
+            </div>
+            <div class="hero-actions" style="display:flex; flex-direction:column; align-items:flex-end; gap:10px;">
+              <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;">
+                <input type="file" id="history-voice-file-input" accept="audio/*" style="display:none;">
+                <button id="btn-history-upload-voice" class="btn-secondary" disabled>
+                  <span class="icon">🎙️</span> Ganti Suara Sendiri
+                </button>
+                <button id="btn-history-render" class="btn-primary" disabled>
+                  <span class="icon">🚀</span> Render Ulang
+                </button>
+                <button id="btn-history-delete" class="btn-ghost" style="color:#ff5252; border-color:rgba(255,82,82,0.35); padding:8px 14px;" disabled title="Hapus project ini">
+                  <span class="icon">🗑️</span> Hapus
+                </button>
+              </div>
+              <!-- Realtime Progress Bar & Status for Render Ulang -->
+              <div id="history-render-progress" class="render-progress-box hidden">
+                <div class="progress-bar-track">
+                  <div id="history-progress-fill" class="progress-bar-fill" style="width: 5%;"></div>
+                </div>
+                <div class="progress-status-row">
+                  <span id="history-progress-text">⏳ Memproses suara & merender...</span>
+                  <span id="history-progress-percent">5%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="studio-grid">
+            <div class="player-column">
+              <div class="video-frame">
+                <div class="player-container">
+                  <video id="video-player" playsinline controls loop></video>
+                  <div id="player-placeholder" class="player-placeholder">
+                    <div class="placeholder-icon">🎬</div>
+                    <p>Pilih salah satu project dari daftar</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- History Thumbnail Card -->
+              <div class="thumb-preview-card" style="margin-top:16px;">
+                <h4>🖼️ Thumbnail "KENAPA"</h4>
+                <div class="thumb-wrapper">
+                  <img id="history-thumb-img" src="" alt="Thumbnail">
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Captions & Timeline -->
+            <div class="timeline-column">
+              <!-- Social Media Kit Tabs in History -->
+              <div class="card-glass" style="padding:18px;">
+                <div class="kit-header" style="margin-bottom:12px;">
+                  <h4 style="font-size:15px;">📝 Social Media Kit Per Platform</h4>
+                </div>
+                <div class="social-tabs" id="history-social-tabs">
+                  <button type="button" class="soc-tab-btn active" data-platform="youtube">🔴 YouTube</button>
+                  <button type="button" class="soc-tab-btn" data-platform="tiktok">🎵 TikTok</button>
+                  <button type="button" class="soc-tab-btn" data-platform="instagram">📸 Instagram</button>
+                  <button type="button" class="soc-tab-btn" data-platform="facebook">🔵 Facebook</button>
+                </div>
+                <div class="caption-display-box" style="margin-top:12px;">
+                  <div class="caption-action-bar">
+                    <span id="history-caption-label" class="platform-indicator">🔴 YouTube Shorts</span>
+                    <button type="button" id="btn-history-copy-caption" class="btn-copy-small">📋 Salin Caption</button>
+                  </div>
+                  <textarea id="history-caption-text" rows="7" readonly></textarea>
+                </div>
+              </div>
+
+              <div class="panel-header" style="margin-top:12px;">
+                <h3>Adegan Cerita & Naskah Subtitle</h3>
+                <span id="scenes-badge" class="badge">0 Adegan</span>
+              </div>
+              <div id="scene-container" class="scene-container"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </section>
+
+    <!-- ==================== TAB 3: JADWAL & MANAGER ==================== -->
+    <section id="view-schedule" class="view-panel">
+      <div class="manager-container">
+        <div class="manager-hero">
+          <span class="tag-badge">Strategi & Distribusi</span>
+          <h2>Jadwal Posting & Prime Time Harian</h2>
+          <p>Sebagai Managermu, ini rekomendasi jam tayang terbaik di Indonesia (WIB) agar video Shorts kamu menjangkau penonton maksimal.</p>
+        </div>
+
+        <!-- Prime Time Slots Grid -->
+        <div class="prime-time-grid">
+          <div class="slot-card">
+            <div class="slot-badge">Slot 1</div>
+            <h3>🕛 12:00 - 13:00 WIB</h3>
+            <h4>Istirahat Siang</h4>
+            <p>Orang-orang scroll video pendek sambil makan siang di kantor atau sekolah.</p>
+          </div>
+          <div class="slot-card">
+            <div class="slot-badge">Slot 2</div>
+            <h3>🕔 16:30 - 17:30 WIB</h3>
+            <h4>Pulang Kerja</h4>
+            <p>Traffic medsos mulai melonjak saat orang di perjalanan atau menunggu kendaraan.</p>
+          </div>
+          <div class="slot-card highlight">
+            <div class="slot-badge best">🔥 Prime Time Utama</div>
+            <h3>🕗 19:30 - 21:00 WIB</h3>
+            <h4>Overthinking Time!</h4>
+            <p>Waktu emas untuk konten santai dan fakta unik sebelum tidur. Penonton paling aktif.</p>
+          </div>
+        </div>
+
+        <!-- Schedule Items Table / Pipeline -->
+        <div class="card-glass" style="margin-top:28px;">
+          <div class="panel-header">
+            <h3>📋 Pipeline Antrean Konten</h3>
+            <button type="button" id="btn-add-schedule-modal" class="btn-secondary">➕ Tambah Jadwal Baru</button>
+          </div>
+
+          <div id="schedule-items-list" class="schedule-items-list">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 4: EXPORT KE HP (1-CLICK PIPELINE) ==================== -->
+    <section id="view-export" class="view-panel">
+      <div class="manager-container">
+        <div class="manager-hero">
+          <span class="tag-badge">1-Click Pipeline</span>
+          <h2>📱 Salin Konten Siap Posting ke HP</h2>
+          <p>Otomatis mengekstrak hanya file deliverable final (video Full HD, 3 slide meme Instagram, caption video & meme) langsung ke HP tanpa file intermediate sampah.</p>
+        </div>
+
+        <!-- Target Destination Card -->
+        <div class="card-glass export-card">
+          <div class="panel-header">
+            <h3>🎯 1. Tentukan Lokasi Folder Tujuan (Output)</h3>
+            <span id="export-phone-status-badge" class="status-pill ready"><span class="dot"></span> Cek Sambungan...</span>
+          </div>
+
+          <div class="export-dest-box">
+            <div id="export-phone-alert" class="alert-box" style="margin-bottom: 16px;">
+              <div class="alert-icon" id="export-phone-icon">📱</div>
+              <div class="alert-text">
+                <h4 id="export-phone-title">Mendeteksi HP...</h4>
+                <p id="export-phone-desc">Memeriksa sambungan MTP USB di /run/user/gvfs...</p>
+              </div>
+            </div>
+
+            <div class="input-block">
+              <label for="export-dest-input">Path Folder Tujuan di HP / Komputer:</label>
+              <div class="dest-input-group">
+                <input type="text" id="export-dest-input" placeholder="Path tujuan (misal: /run/user/1000/gvfs/.../Documents/konten)" required>
+                <button type="button" id="btn-reset-phone-dest" class="btn-secondary" title="Gunakan path HP Android (MTP)">📱 Reset ke HP</button>
+                <button type="button" id="btn-use-local-dest" class="btn-ghost" title="Gunakan folder lokal">💻 Folder Lokal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Selection Card -->
+        <div class="card-glass export-card" style="margin-top: 24px;">
+          <div class="panel-header">
+            <div>
+              <h3>📦 2. Pilih Project yang Ingin Disalin (Input)</h3>
+              <p class="panel-subtitle">Hanya project yang sudah selesai dirender MP4 yang muncul di sini.</p>
+            </div>
+            <div class="export-actions-row">
+              <button type="button" id="btn-select-all-export" class="btn-secondary">✓ Pilih Semua (<span id="total-export-count">0</span>)</button>
+              <button type="button" id="btn-deselect-all-export" class="btn-ghost">✕ Batal Pilih</button>
+            </div>
+          </div>
+
+          <!-- Filter & Search Bar -->
+          <div class="export-filter-bar">
+            <input type="text" id="export-search-input" placeholder="🔍 Cari nama project atau nomor ID (contoh: 21, kentut, ram)..." class="search-input">
+            <div class="export-selection-summary">
+              <span id="export-selected-summary">0 project dipilih (0 MB)</span>
+            </div>
+          </div>
+
+          <!-- Project List -->
+          <div id="export-projects-list" class="export-projects-grid">
+            <div class="loading-state">Memuat project siap posting...</div>
+          </div>
+        </div>
+
+        <!-- Sticky / Bottom Floating 1-Click Action Bar -->
+        <div class="export-action-banner card-glass">
+          <div class="export-summary-box">
+            <span class="export-summary-title">Siap Ditransfer:</span>
+            <span id="export-floating-count" class="export-summary-value">0 Project</span>
+            <span id="export-floating-size" class="export-summary-size">(0 MB)</span>
+          </div>
+          <button type="button" id="btn-run-export" class="btn-primary btn-large-glow">
+            🚀 SALIN KE HP SEKARANG (1-KLIK)
+          </button>
+        </div>
+
+        <!-- Realtime Result / Log Modal / Panel -->
+        <div id="export-progress-panel" class="card-glass hidden" style="margin-top: 24px;">
+          <div class="panel-header">
+            <h3 id="export-progress-title">⏳ Sedang Menyalin ke HP...</h3>
+            <span id="export-progress-pct" class="status-pill ready">0%</span>
+          </div>
+          <div class="progress-bar-container">
+            <div id="export-progress-bar" class="progress-bar-fill" style="width: 0%;"></div>
+          </div>
+          <div id="export-log-box" class="export-console-box"></div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Modal Tambah Jadwal -->
+  <div id="modal-schedule" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>📅 Tambah Jadwal Konten</h3>
+        <button id="btn-close-schedule-modal" class="btn-icon">✕</button>
+      </div>
+      <form id="form-schedule" class="modal-body">
+        <div class="form-group">
+          <label>Topik Video</label>
+          <input type="text" id="sched-topic" placeholder="Judul / topik video" required>
+        </div>
+        <div class="form-group">
+          <label>Target Tanggal Posting</label>
+          <input type="date" id="sched-date" required>
+        </div>
+        <div class="form-group">
+          <label>Target Jam Posting</label>
+          <select id="sched-time">
+            <option value="12:00 WIB">12:00 WIB (Slot Siang)</option>
+            <option value="17:00 WIB">17:00 WIB (Slot Sore)</option>
+            <option value="20:00 WIB" selected>20:00 WIB (Slot Malam - Rekomendasi)</option>
+          </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="btn-cancel-schedule" class="btn-ghost">Batal</button>
+          <button type="submit" class="btn-primary">Simpan ke Jadwal</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
