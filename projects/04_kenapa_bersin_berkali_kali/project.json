@@ -1,0 +1,180 @@
+{
+  "id": "04_kenapa_bersin_berkali_kali",
+  "title": "Kenapa Kalau Bersin Sekali, Rasanya Belum Puas dan Jadi Bersin Lagi?",
+  "topic": "Kenapa kalau kita bersin sekali, kadang rasanya belum puas dan jadi bersin lagi?",
+  "part_num": null,
+  "total_parts": 1,
+  "voice": "id-ID-ArdiNeural",
+  "has_thumbnail": true,
+  "social_kit": {
+    "youtube": "Kenapa Kalau Bersin Sekali, Rasanya Belum Puas dan Jadi Bersin Lagi? — Fakta Sains & Refleks Tubuh 👃⚡\n\nPernahkah kamu ngerasa setelah bersin sekali, di hidung masih ada yang menggelitik, lalu beberapa detik kemudian... HATCIIH! Bersin beruntun dua atau tiga kali keluar? Di video ini kita bedah mekanisme biologis di baliknya!\n\n📌 Poin Menarik Pembahasan:\n• Bersin sebagai tombol 'Ctrl+Alt+Del' alami saluran pernapasan\n• Kecepatan semburan bersin yang mencapai 160 km/jam\n• Saraf trigeminal dan reseptor mukosa hidung yang mendeteksi 'misi belum tuntas'\n• Refleks berantai sampai saluran napas benar-benar steril\n\nKalian tim yang kalau bersin sekali beres, atau selalu bersin borongan berkali-kali nih? Rekor terbanyak berapa kali? Cerita di kolom komentar ya! Like & Subscribe @ShortsStudio untuk fakta sains unik lainnya!\n\n#Shorts #FaktaSains #Biologi #Edukasi #ShortsStudio #Kesehatan #SarafTrigeminal",
+    "tiktok": "Kenapa kalau bersin sekali rasanya belum puas dan malah bersin lagi? 👃💨 Ternyata hidung kita punya rahasia ini!\n\n• Bersin itu tombol restart otomatis saluran napas\n• Partikel pengganggu masih nempel di dinding mukosa meski diterjang 160 km/jam\n• Otak memicu refleks berantai sampai hidung benar-benar bersih!\n\nRekor bersin berturut-turut kalian paling banyak berapa kali nih? Spill di komentar! 👇\n\n#serunyabelajar #faktaunik #sains #kesehatan #temanoverthinking #fyp",
+    "instagram": "Misteri kenapa kita sering bersin berkali-kali akhirnya terjawab! 👃✨\n\nTernyata bukan kebetulan, melainkan sistem pertahanan tubuh yang sangat presisi dalam mensterilkan saluran pernapasan kita.\n\n📌 Save reels ini biar gak penasaran lagi, dan Share ke temen kamu yang kalau bersin heboh berkali-kali!\n\nKalian tim bersin sekali langsung lega atau tim borongan 3x berturut-turut nih? Tulis di komentar ya! 👇\n\n#faktaunik #edukasi #belajardimedsos #sainsindonesia #reelsindonesia #temanoverthinking #kesehatan",
+    "facebook": "Pernahkah sahabat dan keluarga bertanya-tanya, kenapa saat kita bersin sekali, kadang rasanya belum tuntas dan langsung disusul bersin kedua atau ketiga? 🤔\n\nTernyata ada penjelasan biologis yang sangat menarik mengenai respon saraf trigeminal dan lapisan pelindung hidung kita saat membersihkan partikel asing.\n\nSemoga informasi bermanfaat ini menambah wawasan kita bersama ya! Bagaimana dengan pengalaman Anda, rekor bersin paling banyak berapa kali? Mari berdiskusi santai di kolom komentar di bawah! 👇\n\n#FaktaMenarik #EdukasiKesehatan #Wawasan #SainsPopuler #ShortsStudio"
+  },
+  "subtitle_style": {
+    "font_name": "Arial Black",
+    "font_size": 52,
+    "primary_color": "&H00FFFFFF",
+    "highlight_color": "&H0000E5FF",
+    "outline_color": "&H00000000",
+    "outline_width": 5,
+    "margin_v": 430
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "text": "Pernah nggak sih kamu bersin sekali... tapi di hidung rasanya masih ada yang ngeganjel, belum puas, dan sedetik kemudian... HATCIIH! Bersin kedua langsung keluar? Kenapa hidung kita suka minta nambah?",
+      "image": "assets/scene1.jpg",
+      "audio": "audio/scene1.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.5,
+          "text": "Pernah bersin sekali tapi rasanya belum puas?",
+          "highlight": false
+        },
+        {
+          "start": 3.5,
+          "end": 7.5,
+          "text": "Di hidung masih ada yang ngeganjel...",
+          "highlight": false
+        },
+        {
+          "start": 7.5,
+          "end": 11.5,
+          "text": "Sedetik kemudian... HATCIIH! Bersin kedua keluar!",
+          "highlight": true
+        },
+        {
+          "start": 11.5,
+          "end": 15.0,
+          "text": "Kenapa hidung kita suka minta nambah?",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Ternyata, bersin itu ibarat tombol Ctrl+Alt+Del atau restart otomatis buat saluran napas kita. Begitu ada debu atau partikel asing masuk, saraf trigeminal langsung kirim sinyal darurat ke otak buat bikin ledakan udara.",
+      "image": "assets/scene2.jpg",
+      "audio": "audio/scene2.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.5,
+          "text": "Bersin itu tombol restart otomatis saluran napas kita!",
+          "highlight": true
+        },
+        {
+          "start": 4.5,
+          "end": 8.5,
+          "text": "Begitu ada debu atau partikel asing masuk,",
+          "highlight": false
+        },
+        {
+          "start": 8.5,
+          "end": 12.5,
+          "text": "Saraf trigeminal kirim sinyal darurat ke otak,",
+          "highlight": false
+        },
+        {
+          "start": 12.5,
+          "end": 16.8,
+          "text": "Untuk melepaskan ledakan udara kilat!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Meskipun dorongan bersin pertama bisa tembus kecepatan 160 kilometer per jam, kadang partikel pengganggunya masih nempel bandel di dinding mukosa hidung. Sensor kita langsung ngelapor: misinya belum tuntas!",
+      "image": "assets/scene3.jpg",
+      "audio": "audio/scene3.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.0,
+          "text": "Dorongan bersin pertama bisa tembus 160 km/jam!",
+          "highlight": true
+        },
+        {
+          "start": 4.0,
+          "end": 8.0,
+          "text": "Tapi kadang partikel pengganggunya masih nempel bandel,",
+          "highlight": false
+        },
+        {
+          "start": 8.0,
+          "end": 11.5,
+          "text": "Di dinding mukosa hidung kita.",
+          "highlight": false
+        },
+        {
+          "start": 11.5,
+          "end": 14.8,
+          "text": "Sensor hidung langsung lapor: misinya belum tuntas!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Makanya otak otomatis memicu refleks bersin beruntun—dua, tiga, bahkan empat kali berturut-turut sampai penyusup tadi benar-benar terlempar keluar dan rasa gelinya hilang total.",
+      "image": "assets/scene4.jpg",
+      "audio": "audio/scene4.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.5,
+          "text": "Makanya otak otomatis memicu refleks bersin beruntun,",
+          "highlight": false
+        },
+        {
+          "start": 4.5,
+          "end": 9.0,
+          "text": "Dua, tiga, bahkan empat kali berturut-turut!",
+          "highlight": true
+        },
+        {
+          "start": 9.0,
+          "end": 13.5,
+          "text": "Sampai si penyusup benar-benar terlempar keluar,",
+          "highlight": false
+        },
+        {
+          "start": 13.5,
+          "end": 18.0,
+          "text": "Dan rasa gelinya hilang total!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Jadi kalau kamu bersin berkali-kali, itu bukti sistem keamanan tubuhmu lagi kerja keras ngebersihin diri! Kalau kamu, rekor bersin berturut-turut paling banyak berapa kali nih? Coba spill di kolom komentar ya!",
+      "image": "assets/scene5.jpg",
+      "audio": "audio/scene5.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.5,
+          "text": "Bersin berkali-kali itu bukti tubuhmu lagi kerja keras!",
+          "highlight": true
+        },
+        {
+          "start": 4.5,
+          "end": 9.0,
+          "text": "Rekor bersin berturut-turut kamu paling banyak berapa kali nih?",
+          "highlight": false
+        },
+        {
+          "start": 9.0,
+          "end": 13.5,
+          "text": "Coba spill di kolom komentar ya! 👇",
+          "highlight": true
+        }
+      ]
+    }
+  ]
+}

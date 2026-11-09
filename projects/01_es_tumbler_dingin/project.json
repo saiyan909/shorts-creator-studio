@@ -1,0 +1,77 @@
+{
+  "id": "01_es_tumbler_dingin",
+  "title": "Kenapa Es di Tumbler Nggak Mencair Seharian?",
+  "topic": "Sains Kenapa: Insulasi Hampa Udara Tumbler",
+  "voice": "id-ID-ArdiNeural",
+  "voice_rate": "+5%",
+  "social_kit": {
+    "caption": "Pernah kepikiran gak, kenapa es batu di dalam tumbler bisa bertahan seharian padahal cuaca di luar lagi panas terik banget? 🤔\\n\\nRahasianya bukan sihir pendingin, tapi ada teknologi ruang hampa udara mini di sela-sela dinding bajanya! Panas dari luar mentok di jalan buntu karena gak ada udara buat nyebrang. 🚀\\n\\nRekor tumbler kalian paling lama nahan es batu berapa jam nih? Tulis di kolom komentar ya! 👇",
+    "hashtags": "#faktaunik #sains #kenapa #overthinking #serunyabelajar #lifehack #tumbler #fyp #shorts",
+    "pinned_comment": "Tumbler kalian rekor paling lama nahan es batu berapa jam nih? Komen dong! 👇"
+  },
+  "subtitle_style": {
+    "font_name": "Arial Black",
+    "font_size": 52,
+    "primary_color": "&H00FFFFFF",
+    "highlight_color": "&H0000E5FF",
+    "outline_color": "&H00000000",
+    "outline_width": 5,
+    "margin_v": 430
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "text": "Pernah nggak sih kamu mikir, kenapa es batu di dalam tumbler bisa awet berjam-jam, padahal cuaca di luar lagi panas terik banget?",
+      "image": "assets/scene1.jpg",
+      "audio": "audio/scene1.mp3",
+      "subtitles": [
+        {"start": 0.1, "end": 2.1, "text": "Pernah nggak sih kamu mikir...", "highlight": false},
+        {"start": 2.1, "end": 4.6, "text": "Kenapa es batu di tumbler\\nbisa awet berjam-jam?", "highlight": true},
+        {"start": 4.6, "end": 6.9, "text": "Padahal cuaca di luar\\nlagi panas terik banget!", "highlight": false}
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Rahasianya bukan karena tumblernya punya pendingin ajaib. Tumbler sebenarnya nggak mendinginkan, tapi dia menjebak suhu dingin di dalamnya biar nggak bisa kabur.",
+      "image": "assets/scene2.jpg",
+      "audio": "audio/scene2.mp3",
+      "subtitles": [
+        {"start": 0.05, "end": 3.6, "text": "Rahasianya BUKAN karena\\npunya pendingin ajaib!", "highlight": true},
+        {"start": 3.6, "end": 6.6, "text": "Tumbler sebenarnya nggak mendinginkan...", "highlight": false},
+        {"start": 6.6, "end": 9.1, "text": "Tapi dia MENJEBAK suhu dingin\\nbiar nggak kabur!", "highlight": true}
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Secara alami, panas itu butuh perantara udara buat merambat. Nah, tumbler punya dua lapis dinding baja. Di sela-sela dinding itu, udaranya disedot habis sampai hampa udara!",
+      "image": "assets/scene3.jpg",
+      "audio": "audio/scene3.mp3",
+      "subtitles": [
+        {"start": 0.05, "end": 4.1, "text": "Secara alami, panas butuh udara\\nbuat merambat.", "highlight": false},
+        {"start": 4.1, "end": 7.4, "text": "Nah, tumbler punya DUA LAPIS\\ndinding baja.", "highlight": false},
+        {"start": 7.4, "end": 11.9, "text": "Di sela-selanya, udaranya disedot\\nsampai HAMPA UDARA!", "highlight": true}
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Karena nggak ada udara di sela dindingnya, panas dari luar kayak mentok di jalan buntu. Secara harfiah, kamu lagi bawa miniatur ruang hampa luar angkasa di dalam tasmu.",
+      "image": "assets/scene4.jpg",
+      "audio": "audio/scene4.mp3",
+      "subtitles": [
+        {"start": 0.05, "end": 4.6, "text": "Karena nggak ada udara,\\npanas mentok di jalan buntu!", "highlight": false},
+        {"start": 4.6, "end": 9.7, "text": "Kamu lagi bawa miniatur\\nruang hampa luar angkasa!", "highlight": true}
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Makanya es batumu tetap utuh dan aman sentosa. Nah, kalau tumbler kamu, rekor paling lama nahan es batu berapa jam nih? Coba tulis di kolom komentar ya!",
+      "image": "assets/scene5.jpg",
+      "audio": "audio/scene5.mp3",
+      "subtitles": [
+        {"start": 0.05, "end": 3.4, "text": "Makanya es batumu\\ntetap utuh dan aman sentosa!", "highlight": false},
+        {"start": 3.4, "end": 7.8, "text": "Tumbler kamu rekor paling lama\\nnahan es berapa jam nih?", "highlight": true},
+        {"start": 7.8, "end": 10.5, "text": "Coba tulis di kolom komentar ya! 👇", "highlight": false}
+      ]
+    }
+  ]
+}

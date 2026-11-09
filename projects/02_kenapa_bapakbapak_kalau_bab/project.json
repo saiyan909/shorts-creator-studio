@@ -1,0 +1,163 @@
+{
+  "id": "5732_kenapa_bapakbapak_kalau_bab",
+  "title": "Kenapa Bapak-Bapak Kalau BAB Lama Banget, Tapi Pas Mandi Pagi Cepet?",
+  "topic": "Kenapa Bapak-Bapak Kalau BAB Lama Banget, Tapi Pas Mandi Pagi Cepet?",
+  "part_num": null,
+  "total_parts": 1,
+  "voice": "id-ID-ArdiNeural",
+  "voice_rate": "+5%",
+  "has_thumbnail": true,
+  "social_kit": {
+    "youtube": "Kenapa Bapak-Bapak Kalau BAB Lama Banget, Tapi Pas Mandi Pagi Cepet? \u2014 Fakta Ilmiah & Penjelasan Lengkap \ud83e\udde0\ud83d\udca1\n\nPernahkah kamu bertanya-tanya kenapa fenomena ini selalu terjadi di sekitar kita? Di video singkat ini kita bongkar alasan psikologis dan sains di baliknya yang jarang disadari orang!\n\n\ud83d\udccc Poin Menarik Pembahasan:\n\u2022 Penjelasan ilmiah dan mekanisme tersembunyi di balik fenomena ini\n\u2022 Alasan kenapa tubuh dan pikiran kita merespons secara otomatis\n\u2022 Fakta unik yang relatable banget sama kehidupan sehari-hari\n\nKalian tim yang sering ngalamin hal ini atau baru tahu rahasianya sekarang? Tulis cerita atau pendapat kalian di kolom komentar ya! Jangan lupa Like dan Subscribe @ShortsStudio untuk fakta sains seru lainnya!\n\n#Shorts #FaktaSains #Edukasi #SainsUnik #ShortsStudio #PengetahuanPopuler #kenapa #bapak #bapak",
+    "tiktok": "Pernah kepikiran gak sih kenapa hal ini bisa terjadi? \ud83e\udd14 Rasanya sepele tapi pas tahu faktanya malah mind-blowing!\n\nRangkuman fakta sainsnya:\n\u2022 Bukan kebetulan, ada mekanisme biologis dan psikologisnya\n\u2022 Tubuh dan otak kita merespons sinyal ini secara otomatis\n\u2022 Relatable banget sama kebiasaan sehari-hari!\n\nKalian sering ngalamin ini juga gak? Spill pengakuan kalian di kolom komentar ya! \ud83d\udc47\n\n#serunyabelajar #faktaunik #sains #kenapa #temanoverthinking #fyp #kenapa #bapak #bapak",
+    "instagram": "Satu lagi misteri overthinking yang akhirnya terjawab tuntas! \ud83d\udca1\ud83e\udde0\n\nTernyata kebiasaan ini bukan cuma sugesti atau hal acak, tapi ada penjelasan ilmiah di baliknya. Saat kita tahu alasannya, semuanya jadi masuk akal!\n\n\ud83d\udccc Save reels ini biar gak lupa, dan Share ke temen atau keluarga kamu yang sering ngelakuin hal ini!\n\nKalian tim yang relate banget atau baru paham sekarang nih? Tulis di komentar ya! \ud83d\udc47\n\n#faktaunik #edukasi #belajardimedsos #sainsindonesia #reelsindonesia #temanoverthinking #kenapa #bapak #bapak",
+    "facebook": "Pernahkah bapak/ibu dan sahabat sekalian bertanya-tanya kenapa hal ini sering sekali terjadi di kehidupan sehari-hari? \ud83e\udd14\n\nTernyata ini bukan sekadar kebiasaan biasa, melainkan respon alami tubuh dan psikologi yang punya penjelasan ilmiah menarik.\n\nSemoga wawasan singkat ini bermanfaat ya! Bagaimana dengan pengalaman Anda atau keluarga, apakah sering mengalami hal serupa? Mari kita diskusikan santai di kolom komentar di bawah! \ud83d\udc47\n\n#FaktaMenarik #EdukasiKeluarga #Wawasan #SainsPopuler #ShortsStudio"
+  },
+  "subtitle_style": {
+    "font_name": "Arial Black",
+    "font_size": 52,
+    "primary_color": "&H00FFFFFF",
+    "highlight_color": "&H0000E5FF",
+    "outline_color": "&H00000000",
+    "outline_width": 5,
+    "margin_v": 430
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "text": "Pernah nggak sih kamu perhatiin fenomena misterius ini? Kenapa bapak-bapak kalau mandi pagi cuma butuh waktu tiga menit beres, tapi giliran buang air besar di toilet bisa betah sampai setengah jam lebih? Ke mana hilangnya waktu itu?",
+      "image": "assets/scene1.jpg",
+      "audio": "audio/scene1.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 2.5,
+          "text": "Pernah perhatiin fenomena misterius ini?",
+          "highlight": false
+        },
+        {
+          "start": 2.5,
+          "end": 5.5,
+          "text": "Kenapa kalau mandi pagi cuma butuh 3 menit,",
+          "highlight": false
+        },
+        {
+          "start": 5.5,
+          "end": 8.5,
+          "text": "Tapi giliran BAB betah setengah jam lebih?",
+          "highlight": true
+        },
+        {
+          "start": 8.5,
+          "end": 10.5,
+          "text": "Ke mana hilangnya waktu itu?",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Secara psikologis, bagi kebanyakan bapak-bapak, mandi pagi itu murni misi bertahan hidup: basahin badan, sabunan kilat, handukan, beres! Gak ada ritual luluran atau bengong di shower karena otak mereka udah fokus ke rutinitas kerja dan tanggung jawab harian.",
+      "image": "assets/scene2.jpg",
+      "audio": "audio/scene2.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.0,
+          "text": "Mandi pagi murni misi bertahan hidup!",
+          "highlight": false
+        },
+        {
+          "start": 3.0,
+          "end": 6.0,
+          "text": "Basahin badan, sabunan kilat, langsung beres!",
+          "highlight": true
+        },
+        {
+          "start": 6.0,
+          "end": 9.0,
+          "text": "Otak udah fokus ke rutinitas kerja dan tanggung jawab.",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Tapi beda cerita pas masuk bilik toilet dan pintu dikunci! Psikolog menyebut fenomena ini sebagai \"micro-sanctuary\" alias benteng perlindungan darurat. Di era serba riweuh, toilet adalah satu-satunya ruangan di mana gak ada yang minta tolong, gak ada anak nangis, dan gak ada tuntutan pekerjaan.",
+      "image": "assets/scene3.jpg",
+      "audio": "audio/scene3.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.0,
+          "text": "Tapi beda cerita pas pintu toilet dikunci!",
+          "highlight": false
+        },
+        {
+          "start": 3.0,
+          "end": 6.0,
+          "text": "Psikolog menyebutnya 'Micro-Sanctuary'!",
+          "highlight": true
+        },
+        {
+          "start": 6.0,
+          "end": 9.5,
+          "text": "Satu-satunya benteng damai tanpa tuntutan kerja atau anak!",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Penelitian membuktikan, proses buang airnya sendiri sebenarnya cuma lima sampai delapan menit. Sisanya? Dua puluh menit dihabiskan buat doom-scrolling nonton video reels mancing, cek grup WhatsApp ronda, atau baca berita politik sampai kakinya kesemutan!",
+      "image": "assets/scene4.jpg",
+      "audio": "audio/scene4.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.0,
+          "text": "Proses buang airnya sendiri cuma 5 menit...",
+          "highlight": false
+        },
+        {
+          "start": 3.0,
+          "end": 6.5,
+          "text": "Sisanya 20 menit doom-scrolling reels mancing,",
+          "highlight": true
+        },
+        {
+          "start": 6.5,
+          "end": 9.5,
+          "text": "Cek grup WA, sampai kakinya kesemutan!",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Jadi kamar mandi bukan cuma tempat buang hajat, tapi ruang bertapa paling damai seorang bapak! Menurutmu bapakmu atau kamu sendiri kayak gini juga nggak? Tulis pengakuanmu di kolom komentar ya!",
+      "image": "assets/scene5.jpg",
+      "audio": "audio/scene5.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.0,
+          "text": "Kamar mandi ruang bertapa damai seorang bapak!",
+          "highlight": false
+        },
+        {
+          "start": 3.0,
+          "end": 6.0,
+          "text": "Bapakmu atau kamu sendiri kayak gini juga nggak?",
+          "highlight": false
+        },
+        {
+          "start": 6.0,
+          "end": 9.0,
+          "text": "Tulis pengakuanmu di kolom komentar ya! 👇",
+          "highlight": true
+        }
+      ]
+    }
+  ]
+}

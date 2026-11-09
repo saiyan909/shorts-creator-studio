@@ -1,0 +1,156 @@
+{
+  "id": "03_kenapa_waktu_cepet_pas_seneng",
+  "title": "Kenapa Waktu Berasa Cepet Banget Kalau Lagi Seneng?",
+  "topic": "Kenapa waktu berasa cepet banget kalau lagi seneng?",
+  "part_num": null,
+  "total_parts": 1,
+  "voice": "id-ID-ArdiNeural",
+  "has_thumbnail": true,
+  "social_kit": {
+    "youtube": "Kenapa Waktu Berasa Cepet Banget Kalau Lagi Seneng? \u2014 Fakta Sains & Psikologi \ud83e\udde0\u23f3\n\nPernahkah kamu ngerasa waktu 2 jam bareng temen berasa cuma 10 menit, tapi nunggu antrian 10 menit berasa 2 jam? Di video ini kita bongkar alasan ilmiah di balik fenomena persepsi waktu ini!\n\n\ud83d\udccc Poin Menarik:\n\u2022 Efek dopamin dan time perception di otak kita\n\u2022 Kenapa perhatian penuh bikin otak lupa menghitung detik\n\u2022 Cara kerja adaptasi cerdas manusia menghadapi momen seru\n\nKalian tim yang ngerasa liburan selalu kecepetan atau gimana nih? Cerita di kolom komentar ya! Like dan Subscribe @ShortsStudio untuk fakta seru lainnya!\n\n#Shorts #FaktaSains #PersepsiWaktu #ShortsStudio #Edukasi #Psikologi",
+    "tiktok": "Kenapa kalau lagi seneng waktu berasa terbang cepet banget? \u23f3\ud83e\udd2f Ternyata otak kita punya rahasia ini!\n\n\u2022 Dopamin bikin otak fokus nikmatin momen, bukan ngitung detik\n\u2022 Kebalikannya pas bosan, otak sadar setiap detak jam\n\nSiapa yang ngerasa hari libur selalu kecepetan berlalu? Spill di komentar! \ud83d\udc47\n\n#serunyabelajar #faktaunik #sains #temanoverthinking #fyp",
+    "instagram": "Misteri kenapa waktu berjalan lebih cepat saat kita bahagia akhirnya terjawab! \u23f3\u2728\n\nTernyata bukan sugesti, melainkan mekanisme biologis otak kita dalam memproses stimulasi dan dopamin.\n\n\ud83d\udccc Save reels ini biar gak overthinking pas waktu weekend berasa cepet abis!\n\nTag temen kamu yang paling sering ngeluh kok udah malam aja ya! \ud83d\udc47\n\n#faktaunik #edukasi #belajardimedsos #sainsindonesia #reelsindonesia #temanoverthinking",
+    "facebook": "Pernahkah sahabat sekalian bertanya-tanya, kenapa momen menyenangkan selalu berlalu begitu cepat dibandingkan saat kita bosan atau menunggu?\n\nTernyata ada penjelasan ilmiah menarik seputar bagaimana otak kita mempersepsikan waktu dan ritme biologis.\n\nSemoga wawasan singkat ini bermanfaat! Bagaimana pengalaman Anda dan keluarga? Mari berdiskusi santai di kolom komentar di bawah! \ud83d\udc47\n\n#FaktaMenarik #EdukasiKeluarga #Wawasan #SainsPopuler #ShortsStudio"
+  },
+  "subtitle_style": {
+    "font_name": "Arial Black",
+    "font_size": 52,
+    "primary_color": "&H00FFFFFF",
+    "highlight_color": "&H0000E5FF",
+    "outline_color": "&H00000000",
+    "outline_width": 5,
+    "margin_v": 430
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "text": "Pernah nggak sih kamu kepikiran hal aneh yang sering kita lewatin ini? Kenapa waktu berasa cepet banget kalau lagi seneng? Kelihatannya sepele, tapi kalau dipikir-pikir makin bikin penasaran kan?",
+      "image": "assets/scene1.jpg",
+      "audio": "audio/scene1.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.0,
+          "text": "Pernah kepikiran hal aneh ini?",
+          "highlight": false
+        },
+        {
+          "start": 3.0,
+          "end": 7.0,
+          "text": "Kenapa waktu berasa cepet banget kalau lagi seneng?",
+          "highlight": true
+        },
+        {
+          "start": 7.0,
+          "end": 11.0,
+          "text": "Kelihatannya sepele, tapi makin bikin penasaran kan?",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Banyak orang mengira ini terjadi karena kebetulan atau sugesti semata. Padahal kalau kita bedah lebih dalam, ada hukum sains dan mekanisme tersembunyi yang mengatur semuanya secara presisi.",
+      "image": "assets/scene2.jpg",
+      "audio": "audio/scene2.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.5,
+          "text": "Banyak yang kira ini kebetulan atau sugesti semata.",
+          "highlight": false
+        },
+        {
+          "start": 3.5,
+          "end": 7.5,
+          "text": "Padahal kalau kita bedah lebih dalam,",
+          "highlight": false
+        },
+        {
+          "start": 7.5,
+          "end": 12.0,
+          "text": "Ada hukum sains dan mekanisme tersembunyi yang presisi!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Secara biologis dan fisika, tubuh serta lingkungan kita terus bertukar sinyal tanpa kita sadari. Respon alami ini sebenarnya adalah cara adaptasi cerdas untuk menghemat energi dan melindungi diri kita.",
+      "image": "assets/scene3.jpg",
+      "audio": "audio/scene3.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.5,
+          "text": "Tubuh dan lingkungan terus bertukar sinyal tanpa kita sadari.",
+          "highlight": false
+        },
+        {
+          "start": 3.5,
+          "end": 7.5,
+          "text": "Respon alami ini adalah cara adaptasi cerdas,",
+          "highlight": false
+        },
+        {
+          "start": 7.5,
+          "end": 12.0,
+          "text": "Untuk menghemat energi dan melindungi diri kita!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bahkan para peneliti menemukan bahwa pola unik ini sudah terbentuk secara evolusioner sejak ribuan tahun lalu, dan sampai hari ini masih bekerja otomatis di kehidupan kita sehari-hari.",
+      "image": "assets/scene4.jpg",
+      "audio": "audio/scene4.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.0,
+          "text": "Pola unik ini terbentuk secara evolusioner sejak ribuan tahun lalu,",
+          "highlight": false
+        },
+        {
+          "start": 4.0,
+          "end": 8.0,
+          "text": "Dan sampai hari ini masih bekerja otomatis,",
+          "highlight": false
+        },
+        {
+          "start": 8.0,
+          "end": 12.5,
+          "text": "Di kehidupan kita sehari-hari!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Ternyata hal sesepele ini punya rahasia yang mind-blowing banget ya! Menurutmu kamu sering ngalamin ini juga nggak? Coba tulis pendapat atau ceritamu di kolom komentar ya!",
+      "image": "assets/scene5.jpg",
+      "audio": "audio/scene5.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.5,
+          "text": "Hal sesepele ini punya rahasia yang mind-blowing banget ya!",
+          "highlight": false
+        },
+        {
+          "start": 3.5,
+          "end": 7.0,
+          "text": "Menurutmu kamu sering ngalamin ini juga nggak?",
+          "highlight": false
+        },
+        {
+          "start": 7.0,
+          "end": 10.5,
+          "text": "Tulis pendapat atau ceritamu di kolom komentar ya! \ud83d\udc47",
+          "highlight": true
+        }
+      ]
+    }
+  ]
+}

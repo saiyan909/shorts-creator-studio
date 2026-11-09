@@ -1,0 +1,162 @@
+{
+  "id": "05_kenapa_penghapus_gak_bisa_hapus_tinta",
+  "title": "Kenapa Penghapus Gak Bisa Menghilangkan Tinta Pulpen?",
+  "topic": "Kenapa penghapus bisa menghilangkan tulisan pensil tapi gak bisa menghilangkan tinta?",
+  "part_num": null,
+  "total_parts": 1,
+  "voice": "id-ID-ArdiNeural",
+  "has_thumbnail": true,
+  "social_kit": {
+    "youtube": "Kenapa Penghapus Bisa Menghilangkan Pensil Tapi Gak Bisa Menghilangkan Tinta? — Fakta Sains & Fisika Kertas ✏️🖊️\n\nPernahkah kamu waktu sekolah nekat ngehapus coretan pulpen pakai penghapus pensil biasa, tapi kertasnya malah robek dan kotor? Di video ini kita bongkar alasan ilmiah di balik fenomena sehari-hari ini!\n\n📌 Poin Menarik Pembahasan:\n• Grafit pensil hanya 'numpang duduk' di serat kertas karena ikatan lemah\n• Karet penghapus yang lebih lengket mengangkat grafit bersama ampas karet\n• Tinta pulpen meresap ke dalam pori-pori terdalam serat selulosa kertas\n• Mitos bagian biru penghapus dua warna zaman SD\n\nSiapa nih yang dulu waktu sekolah pernah kemakan mitos bagian biru penghapus? Ngaku di kolom komentar ya! Jangan lupa Like & Subscribe @ShortsStudio untuk fakta seru lainnya!\n\n#Shorts #FaktaSains #Fisika #Kimia #Edukasi #ShortsStudio #NostalgiaSekolah",
+    "tiktok": "Kenapa pensil gampang dihapus tapi tinta pulpen gak bisa? ✏️🤯 Ternyata ini rahasia sainsnya!\n\n• Grafit pensil cuma nempel di permukaan kertas\n• Karet penghapus lebih lengket dibanding serat kertas\n• Tinta pulpen meresap masuk ke pori-pori kertas sampai dalam!\n\nSiapa yang dulu pas SD nekat hapus pulpen pakai bagian biru penghapus? Spill di komentar! 👇\n\n#serunyabelajar #faktaunik #sains #nostalgia #temanoverthinking #fyp",
+    "instagram": "Misteri masa kecil yang akhirnya terjawab secara ilmiah! ✏️📜\n\nKenapa pulpen gak bisa dihapus pakai penghapus pensil? Ternyata jawabannya ada pada perbedaan ikatan fisik grafit vs cairan kimia tinta yang meresap ke serat kertas.\n\n📌 Save reels ini dan Share ke temen masa sekolahmu dulu!\n\nKalian tim yang pernah bikin kertas buku bolong gara-gara maksa ngehapus pulpen nggak nih? Tulis di komentar ya! 👇\n\n#faktaunik #edukasi #belajardimedsos #sainsindonesia #reelsindonesia #temanoverthinking",
+    "facebook": "Pernahkah sahabat sekalian mengingat momen masa sekolah dulu, saat kita mencoba menghapus coretan pulpen dengan penghapus pensil sampai kertasnya berlubang? 😊\n\nTernyata ada penjelasan ilmiah fisika dan kimia yang sangat menarik di balik cara kerja grafit pensil vs tinta cair pada serat kertas.\n\nSemoga ulasan nostalgia yang sarat ilmu ini bermanfaat ya! Bagaimana kenangan Anda waktu sekolah dulu? Mari berbagi cerita di kolom komentar di bawah! 👇\n\n#FaktaMenarik #NostalgiaSekolah #Wawasan #SainsPopuler #ShortsStudio"
+  },
+  "subtitle_style": {
+    "font_name": "Arial Black",
+    "font_size": 52,
+    "primary_color": "&H00FFFFFF",
+    "highlight_color": "&H0000E5FF",
+    "outline_color": "&H00000000",
+    "outline_width": 5,
+    "margin_v": 430
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "text": "Pernah nggak sih kamu waktu sekolah nekat ngehapus coretan pulpen pakai penghapus pensil, tapi bukannya bersih kertasnya malah robek dan dekil? Kenapa pensil gampang banget dihapus, tapi penghapus langsung nyerah kalau ketemu tinta?",
+      "image": "assets/scene1.jpg",
+      "audio": "audio/scene1.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.0,
+          "text": "Pernah nekat hapus coretan pulpen pakai penghapus pensil?",
+          "highlight": false
+        },
+        {
+          "start": 4.0,
+          "end": 8.5,
+          "text": "Bukannya bersih, kertasnya malah robek dan dekil!",
+          "highlight": true
+        },
+        {
+          "start": 8.5,
+          "end": 12.5,
+          "text": "Kenapa pensil gampang banget dihapus,",
+          "highlight": false
+        },
+        {
+          "start": 12.5,
+          "end": 16.8,
+          "text": "Tapi penghapus langsung nyerah kalau ketemu tinta?",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Rahasianya ada di cara mereka menempel ke kertas. Pensil itu terbuat dari grafit. Saat kamu nulis, serpihan grafit ini sebenarnya cuma numpang duduk di permukaan serat kertas karena gaya gesek yang lemah.",
+      "image": "assets/scene2.jpg",
+      "audio": "audio/scene2.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.0,
+          "text": "Rahasianya ada di cara mereka menempel ke kertas.",
+          "highlight": false
+        },
+        {
+          "start": 4.0,
+          "end": 8.0,
+          "text": "Pensil itu terbuat dari serpihan grafit.",
+          "highlight": true
+        },
+        {
+          "start": 8.0,
+          "end": 12.8,
+          "text": "Saat nulis, grafit cuma numpang duduk di permukaan serat kertas!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Nah, penghapus itu terbuat dari karet atau vinil sintetis yang sifatnya jauh lebih lengket daripada serat kertas. Saat digosok, partikel grafit lebih milih nempel ke karet penghapus, lalu terangkat bersih bareng ampas karetnya.",
+      "image": "assets/scene3.jpg",
+      "audio": "audio/scene3.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.5,
+          "text": "Penghapus terbuat dari karet yang sifatnya jauh lebih lengket!",
+          "highlight": true
+        },
+        {
+          "start": 4.5,
+          "end": 9.0,
+          "text": "Saat digosok, grafit lebih milih nempel ke penghapus,",
+          "highlight": false
+        },
+        {
+          "start": 9.0,
+          "end": 15.0,
+          "text": "Lalu terangkat bersih bareng ampas karetnya!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Tapi beda cerita sama tinta pulpen! Tinta itu cairan kimia cair yang meresap masuk jauh ke pori-pori terdalam serat kertas. Menghapus tinta pakai karet itu mustahil, kecuali kamu mengikis dan merusak serat kertasnya sampai bolong.",
+      "image": "assets/scene4.jpg",
+      "audio": "audio/scene4.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.5,
+          "text": "Tapi beda cerita sama tinta pulpen!",
+          "highlight": true
+        },
+        {
+          "start": 4.5,
+          "end": 9.5,
+          "text": "Tinta meresap masuk jauh ke pori-pori terdalam serat kertas.",
+          "highlight": false
+        },
+        {
+          "start": 9.5,
+          "end": 16.2,
+          "text": "Hapus tinta pakai karet itu mustahil tanpa merusak kertas!",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Makanya kita butuh tip-ex buat nutupin tinta, bukan dihapus. Siapa nih yang dulu waktu SD sempat kemakan mitos kalau bagian warna biru di penghapus itu bisa buat ngehapus pulpen? Ngaku di kolom komentar ya!",
+      "image": "assets/scene5.jpg",
+      "audio": "audio/scene5.mp3",
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.5,
+          "text": "Makanya kita butuh tip-ex buat nutupin tinta, bukan dihapus.",
+          "highlight": false
+        },
+        {
+          "start": 4.5,
+          "end": 9.5,
+          "text": "Siapa yang dulu kemakan mitos bagian biru penghapus?",
+          "highlight": true
+        },
+        {
+          "start": 9.5,
+          "end": 14.5,
+          "text": "Ngaku di kolom komentar ya! 👇",
+          "highlight": true
+        }
+      ]
+    }
+  ]
+}
